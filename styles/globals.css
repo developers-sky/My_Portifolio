@@ -10,6 +10,6 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-r from-[#f59e0b] to-[#e11d48];
+    @apply bg--fuchsia-900;
   }
 }
