@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
           </a>
         </Link>
 
-        <Link href="https://github.com/anurag-bit/Mario" passHref>
+        <Link href="https://github.com/anurag-bit/Project-Mario_v2" passHref>
           <a
             className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] p-1 text-white duration-100 hover:scale-105"
             target="_blank"
