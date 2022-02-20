@@ -11,7 +11,7 @@ const spark: React.FC = () => {
       </div>
       <p className="text-3xl font-bold text-white">listen something.....✨</p>
       <br/>
-      <div> <div><iframe src="https://open.spotify.com/embed/playlist/222sxdLK9rmrtamjSDN7rq?utm_source=generator" width="100%" height="380" frameBorder="200"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <div> <div><iframe src="https://open.spotify.com/embed/playlist/222sxdLK9rmrtamjSDN7rq?utm_source=generator" width="90%" height="380" frameBorder="200"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
     </div>
       </div>

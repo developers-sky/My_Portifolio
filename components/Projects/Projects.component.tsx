@@ -32,14 +32,6 @@ const Projects: React.FC = () => {
             </div>
           </a>
         </Link>
-<<<<<<< Updated upstream
-        <div>
-          <a>
-          <iframe  width="250" height="150" frameBorder="0" src="https://cdn.abowman.com/widgets/fish/fish.html?up_backgroundColor=701a75&up_numFish=5&up_fishColor1=f45540&up_fishColor2=c06054&up_fishColor3=f4ce43&up_fishColor4=43f446&up_fishColor5=43a7f4&up_fishColor6=f45540&up_fishColor7=f45540&up_fishColor8=f45540&up_fishColor9=f45540&up_fishColor10=f45540"></iframe>
-          </a>
-        </div>
-=======
->>>>>>> Stashed changes
       </div>
     </div>
   );
