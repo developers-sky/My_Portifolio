@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 
-import { Header, About, Projects, Skills, Contact } from "../components";
+import { Header, About, Projects, Skills, Contact, Spark} from "../components";
+import spark from "../components/Spark/Spark.component";
 
 const Home: NextPage = () => {
   return (
@@ -9,6 +10,7 @@ const Home: NextPage = () => {
       <About />
       <Skills />
       <Projects />
+      <Spark/>
       <Contact />
     </div>
   );

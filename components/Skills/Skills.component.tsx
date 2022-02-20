@@ -39,10 +39,10 @@ const Skills = () => {
       </div>
 
       <p className="text-lg font-medium text-slate-300">
-        ...more skills include <span className="text-white">javascript</span>,{" "}
+        ...more skills include <span className="text-white">Javascript</span>,{" "}
         <span className="text-white">Go</span>,{" "}
-        <span className="text-white">reactjs</span>,{" "}
-        <span className="text-white">fastapi </span>{" "}
+        <span className="text-white">Reactjs</span>,{" "}
+        <span className="text-white">Fastapi </span>{" "}
       </p>
     </div>
   );

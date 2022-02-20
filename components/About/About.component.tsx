@@ -23,7 +23,17 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read my Articles...❤️
+            Read my Articles...
+            <HiOutlineArrowNarrowRight />
+          </a>
+        </Link>
+        <Link href="https://anurag-blog.vercel.app" passHref>
+          <a
+            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Here goes my blog..
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>
@@ -39,7 +49,7 @@ const About = () => {
           </a>
         </Link>
         <p className="mt-4 text-white">
-          Have a radical Day Ahead!!🐯
+          Have a radical Day Ahead!!
         </p>
       </div>
 
