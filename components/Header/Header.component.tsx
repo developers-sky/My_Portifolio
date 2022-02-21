@@ -34,7 +34,7 @@ const Header: React.FC = () => {
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
         <TextLink text="Home" href="#" />
         <TextLink text="Skills" href="#skills" />
-        <TextLink text="Projects" href="#projects" />
+        <TextLink text="Skip To The Good Part" href="#projects" />
         <TextLink text="Contact" href="#contact" />
       </p>
 
