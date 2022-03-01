@@ -11,6 +11,9 @@ const About = () => {
         <p className="mt-1 text-lg font-medium text-gray-700">
           Ai Enthusiast, Blogger and a Student
         </p>
+        <p className="mt-1 text-lg font-medium text-gray-700">
+          The is the testing/beta build page!!!!!....try something new🌌✨✨✨🦋
+        </p>
 
         <p className="mt-4 text-slate-900">
           Building Web apps, proficient in ML. Writing articles <br /> on
