@@ -5,7 +5,7 @@ import Link from "next/link";
 const Projects: React.FC = () => {
   return (
     <div className="my-16 px-3 font-sen" id="projects">
-      <p className="text-3xl font-bold text-white">Featured Projects</p>
+      <p className="text-3xl font-bold text-blue-900">Featured Projects</p>
       <div className="my-8 flex flex-col items-center justify-center gap-10 sm:flex-row">
         <Link href="https://github.com/anurag-bit/Orbivator_AI" passHref>
           <a
@@ -32,11 +32,8 @@ const Projects: React.FC = () => {
             </div>
           </a>
         </Link>
-        <div>
-          <a>
-          <iframe  width="400" height="300" frameBorder="0" src="https://cdn.abowman.com/widgets/fish/fish.html?up_backgroundColor=701a75&up_numFish=5&up_fishColor1=f45540&up_fishColor2=c06054&up_fishColor3=f4ce43&up_fishColor4=43f446&up_fishColor5=43a7f4&up_fishColor6=f45540&up_fishColor7=f45540&up_fishColor8=f45540&up_fishColor9=f45540&up_fishColor10=f45540"></iframe>
-          </a>
-        </div>
+       
+        <a/>
       </div>
     </div>
   );

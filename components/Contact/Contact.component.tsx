@@ -11,7 +11,10 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <div className="font-sen px-3" id="contact">
-      <p className="text-3xl font-bold text-white">Get in touch</p>
+       <br />
+    <div> <p className="text-3xl font-bold text-pink-800">Designed by me.</p></div>
+    <br/>
+      <p className="text-3xl font-bold text-black">Get in touch</p>
 
       <div className="my-8 flex flex-row justify-center gap-x-4">
         <Link href="https://github.com/anurag-bit" passHref>
