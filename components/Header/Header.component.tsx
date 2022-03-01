@@ -36,6 +36,7 @@ const Header: React.FC = () => {
         <TextLink text="Skills" href="#skills" />
         <TextLink text="Skip To The Good Part" href="#projects" />
         <TextLink text="Contact" href="#contact" />
+        <TextLink text="🌌✨"   href="https://my-portifolio-pgtx63a28-anurag4078.vercel.app"/>
       </p>
 
       <Link href="https://github.com/anurag-bit" passHref>
