@@ -72,6 +72,13 @@ const Contact = () => {
           </a>
         </Link>
       </div>
+      <div className="font-sen px-3" id="contact">
+      <p className="text-3xl font-bold text-white">Music Credits</p>
+      <p className="text-1xl font-bold text-white">Music from Uppbeat (free for Creators!):
+      <br />
+https://uppbeat.io/t/hybridas/perfect-time
+License code: 4Z0YXQZIQ3HMV5XM</p>
+      </div>
     </div>
   );
 };

@@ -13,7 +13,12 @@ const spark: React.FC = () => {
       <br/>
       <div> <div><iframe src="https://open.spotify.com/embed/playlist/222sxdLK9rmrtamjSDN7rq?utm_source=generator" width="90%" height="380" frameBorder="200"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
+      <br />
+      <div><script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div className="elfsight-app-aab9ea3b-85ae-4756-a209-9d4f361d8a31"></div>
+      <div></div>
     </div>
+      </div>
       </div>
        );
     };
