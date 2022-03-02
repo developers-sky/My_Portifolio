@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Link from "next/link";
 import { VscGithubAlt } from "react-icons/vsc";
+import {DiApple} from "react-icons/di";
 
 const TextLink = ({ text, href }: any) => {
   return (
@@ -36,9 +37,17 @@ const Header: React.FC = () => {
         <TextLink text="Skills" href="#skills" />
         <TextLink text="Skip To The Good Part" href="#projects" />
         <TextLink text="Contact" href="#contact" />
-        <TextLink text="🌌✨"   href="https://my-portifolio-pgtx63a28-anurag4078.vercel.app"/>
       </p>
-
+      <Link href="https://my-portifolio-pgtx63a28-anurag4078.vercel.app" passHref>
+        <a
+          className="rounded-lg border-2 border-zinc-700 bg-zinc-900 p-2 text-2xl text-white hover:border-white"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="github-repo"
+        >
+          <DiApple />
+        </a>
+      </Link>
       <Link href="https://github.com/anurag-bit" passHref>
         <a
           className="rounded-lg border-2 border-zinc-700 bg-zinc-900 p-2 text-2xl text-white hover:border-white"
