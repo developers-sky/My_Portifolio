@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Link from "next/link";
 import { VscGithubAlt } from "react-icons/vsc";
-import {DiApple} from "react-icons/di";
+import {GiBattleGear} from "react-icons/gi";
 
 const TextLink = ({ text, href }: any) => {
   return (
@@ -45,7 +45,7 @@ const Header: React.FC = () => {
           rel="noopener noreferrer"
           aria-label="github-repo"
         >
-          <DiApple />
+          <GiBattleGear />
         </a>
       </Link>
       <Link href="https://github.com/anurag-bit" passHref>

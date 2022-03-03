@@ -3,7 +3,8 @@ import { MdEmail } from "react-icons/md";
 import { AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { FaDiscord } from "react-icons/fa";
-import {DiApple} from "react-icons/di"
+import {GiBattleGear} from "react-icons/gi"
+
 
 export {
   BsSpotify,
@@ -13,5 +14,5 @@ export {
   HiOutlineArrowNarrowRight,
   BsArrowRightShort,
   FaDiscord,
-  DiApple
+  GiBattleGear,
 };
