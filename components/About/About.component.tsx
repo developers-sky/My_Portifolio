@@ -12,7 +12,8 @@ const About = () => {
           Ai Enthusiast, Blogger and a Student
         </p>
         <p className="mt-1 text-lg font-medium text-gray-700">
-          The is the testing/beta build page!!!!!....try something new🌌✨✨✨🦋
+          The is the testing/beta build page!!!!!....try something new🌌✨✨✨🦋<br/>
+          new stuff and new design coming soon...stay tuned 
         </p>
 
         <p className="mt-4 text-slate-900">
