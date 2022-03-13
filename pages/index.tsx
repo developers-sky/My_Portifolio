@@ -1,8 +1,10 @@
 import type { NextPage } from "next";
 
-import { Header, About, Projects, Skills, Contact, Spark} from "../components";
+import { Header, About, Projects, Skills, Contact, Spark, footer} from "../components";
+import Footer from "../components/footer";
 import spark from "../components/Spark/Spark.component";
 import SpotifyCard from "../components/spotify.card";
+
 
 const Home: NextPage = () => {
   return (
@@ -13,11 +15,10 @@ const Home: NextPage = () => {
       <Projects />
       <Spark/>
       <Contact />
+      <Footer/>
 
-      <div className="flex justify-center">
-        <SpotifyCard />
+    
       </div>
-    </div>
   );
 };
 

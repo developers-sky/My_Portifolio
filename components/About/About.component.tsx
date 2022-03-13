@@ -13,14 +13,14 @@ const About = () => {
           Ai Enthusiast, Blogger and a Student
         </p>
 
-        <p className="mt-4 text-gray-400">
+        <p className="mt-4 text-white">
           Building Web apps, proficient in ML. Writing articles <br /> on
           my blog sometimes.
         </p>
 
         <Link href="https://medium.com/@anuragkumarsingh086" passHref>
           <a
-            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
+            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,7 +30,7 @@ const About = () => {
         </Link>
         <Link href="https://anurag-blog.vercel.app" passHref>
           <a
-            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
+            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -41,7 +41,7 @@ const About = () => {
 
         <Link href="https://www.instagram.com/prof.freakenstein/" passHref>
           <a
-            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
+            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
             target="_blank"
             rel="noopener noreferrer"
           >

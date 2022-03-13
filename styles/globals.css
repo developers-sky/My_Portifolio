@@ -7,9 +7,35 @@
   scroll-behavior: smooth;
 }
 
-
 @layer base {
   body {
-    @apply bg-zinc-900;
+      background: linear-gradient(212deg, #1f69d4, #3e97f0, #23a1dd, #826ee3, #587fe5, #b943eb, #bd36f6, #b725f4, #e425f4, #f81787, #f81769, #f8174b, #f88317, #f2b849, #d2d414, #e7cb00, #04bd03);
+      background-size: 3400% 3400%;
+  
+      -webkit-animation: AnimationName 31s ease infinite;
+      -moz-animation: AnimationName 31s ease infinite;
+      -o-animation: AnimationName 31s ease infinite;
+      animation: AnimationName 31s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:14% 0%}
+      50%{background-position:87% 100%}
+      100%{background-position:14% 0%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:14% 0%}
+      50%{background-position:87% 100%}
+      100%{background-position:14% 0%}
+  }
+  @-o-keyframes AnimationName {
+      0%{background-position:14% 0%}
+      50%{background-position:87% 100%}
+      100%{background-position:14% 0%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:14% 0%}
+      50%{background-position:87% 100%}
+      100%{background-position:14% 0%}
   }
 }
