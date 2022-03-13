@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 
 import Link from "next/link";
 import { VscGithubAlt } from "react-icons/vsc";
-import {GiBattleGear} from "react-icons/gi";
+import {DiCodepen} from "react-icons/di";;
+
 
 const TextLink = ({ text, href }: any) => {
   return (
@@ -35,8 +36,9 @@ const Header: React.FC = () => {
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
         <TextLink text="Home" href="#" />
         <TextLink text="Skills" href="#skills" />
-        <TextLink text="Skip To The Good Part" href="#projects" />
+        <TextLink text="Projects" href="#projects" />
         <TextLink text="Contact" href="#contact" />
+        <TextLink text="Guestbook" href="#guestbook" />
       </p>
       <Link href="https://my-portifolio-pgtx63a28-anurag4078.vercel.app" passHref>
         <a
@@ -45,7 +47,7 @@ const Header: React.FC = () => {
           rel="noopener noreferrer"
           aria-label="github-repo"
         >
-          <GiBattleGear />
+          <DiCodepen />
         </a>
       </Link>
       <Link href="https://github.com/anurag-bit" passHref>
