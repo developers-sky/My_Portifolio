@@ -11,7 +11,7 @@ const ExternalLink = ({ href, children }) => (
   </a>
 );
 
-export default function Footer() {
+export default function Footer(): JSX.Element {
   return (
     <footer className="flex flex-col justify-center items-start max-w-2xl mx-auto w-full mb-8">
       <hr className="w-full border-1 border-gray-200 dark:border-white mb-8" />
@@ -43,3 +43,4 @@ export default function Footer() {
     </footer>
   );
 }
+

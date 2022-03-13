@@ -5,8 +5,8 @@ import { useTheme } from 'next-themes';
 import NextLink from 'next/link';
 import cn from 'classnames';
 
-import Footer from 'components/Footer';
-import MobileMenu from 'components/MobileMenu';
+import Footer from './footer';
+import MobileMenu from './MobileMenu';
 
 function NavItem({ href, text }) {
   const router = useRouter();

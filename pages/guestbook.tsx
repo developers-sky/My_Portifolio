@@ -1,6 +1,6 @@
-import prisma from 'lib/prisma';
-import Container from 'components/Container';
-import Guestbook from '/components/';
+import prisma from '../lib/prisma';
+import Container from '../components/container';
+import Guestbook from '../components/guestbook';
 
 export default function GuestbookPage({ fallbackData }) {
   return (
